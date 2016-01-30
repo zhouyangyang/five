@@ -1,0 +1,97 @@
+body{
+	font-family: "微软雅黑";
+}
+.dakuai{
+	width: 900px;
+	height: 600px;
+	border: 1px solid black;
+	margin: 30px auto;
+	position: relative;
+}
+.kuai{
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+	background:url("../img/1.jpg") repeat;
+	margin:0 auto;
+	border-right: none;
+	border-bottom: none;
+	position: relative;
+}
+.block{
+	width: 59px;
+    height: 59px;
+	margin: 0 1px 1px 0px;
+	float: left;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transform:scale(0.7,0.7);
+	position: relative;
+	z-index: 343;
+
+
+}
+.heng{
+	width: 100%;
+	position: absolute;
+	border-top: 1px solid black;
+   top: 50%;
+}
+.shu{
+	height: 100%;
+	position: absolute;
+	border-left: 1px solid black;
+	left: 50%;
+}
+.jishiqi{
+	width:70px;
+	height: 40px;
+	border: 2px solid rgb(90, 37, 3);
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	color: rgb(172, 43, 43);
+	font-size: 25px;
+	font-weight: bold;
+
+}
+.dh{
+   width: 150px;
+   height: 600px;
+   border: 1px solid black;
+   position: absolute;
+   background: rgb(63, 126, 108);
+}
+#left{
+	left: 0px;
+	top: 0px;
+}
+#right{
+	top: 0px;
+	right: 0px;
+}
+.tou{
+	width: 150px;
+	height: 200px;
+	margin-top: 25px;
+}
+#pic1{
+	background: url("../img/2.png") no-repeat;
+}
+#pic2{
+	background: url("../img/3.png") no-repeat -120px 0px;
+}
+#ji1{
+	top: 300px;
+	left: 40px;
+}
+#ji2{
+	top: 300px;
+	right:40px;
+}
+.name{
+	display: block;
+	text-align: center;
+    font-weight: bold;
+}
+
